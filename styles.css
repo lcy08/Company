@@ -17,7 +17,7 @@ html {
 }
 
 .nav li a:hover {
-  color: #6a9ab0;
+  color: #fccc74;
 }
 
 .contactus {
@@ -26,8 +26,6 @@ html {
   align-items: center;
   margin-top: 1rem;
 }
-
-
 
 .button {
   background: #dcf2f1;
@@ -74,7 +72,7 @@ html {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(rgba(15, 16, 53, 1), rgba(220, 242, 241, 0.75));
+  background: linear-gradient(rgba(116, 140, 204, 1), rgba(220, 242, 241, 0.75));
   z-index: 1;
 }
 
@@ -85,18 +83,20 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #dcf2f1;
+  color: #212b63;
   border-radius: 10px;
 }
 
 .header-not-home {
   position: relative;
   width: 100%;
-  height: 40vh;
+  height: 45vh;
   display: flex;
+  padding: 1rem;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #dcf2f1;
+  color: #212b63;
   border-radius: 10px;
 }
 
@@ -122,7 +122,7 @@ html {
   position: absolute;
   width: 100%;
   height: 3px;
-  background-color: #0f1035;
+  background-color: #748ccc;
   transform: scaleX(0);
   left: 0;
   bottom: -5px;
@@ -157,7 +157,7 @@ p {
 }
 
 .desc {
-  box-shadow: 0px 10px 10px 0px rgba(15, 16, 53, 0.2);
+  box-shadow: 0px 10px 10px 0px rgba(116, 140, 204, 0.2);
   margin: 0 auto;
   padding: 1rem;
 }
@@ -165,9 +165,9 @@ p {
 section {
   max-width: 85%;
   margin: 2rem auto;
-  background-color: #0f1035;
+  background-color: #748ccc;
   border-radius: 10px;
-  box-shadow: 0 8px 8px rgba(15, 16, 53, 0.25);
+  box-shadow: 0 8px 8px rgba(116, 140, 204, 0.25);
   color: #dcf2f1;
   display: block;
 }
@@ -186,7 +186,7 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   text-align: center;
   padding: 0.5rem;
 }
@@ -201,7 +201,7 @@ section {
   position: relative;
   overflow: hidden;
   border-radius: 10px;
-  width: 70%;
+  width: 100%;
   height: 100%;
 }
 
@@ -218,7 +218,7 @@ section {
 }
 
 footer {
-  background: #0f1035;
+  background: #748ccc;
   color: #dcf2f1;
   padding: 1rem;
   display: block;
