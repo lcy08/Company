@@ -6,17 +6,17 @@ html {
   scroll-behavior: smooth;
 }
 
-.nav {
+nav {
   color: floralwhite;
   padding: 10px;
   display: flex;
 }
 
-.nav li a {
+nav li a {
   color: beige;
 }
 
-.nav li a:hover {
+nav li a:hover {
   color: #fccc74;
 }
 
